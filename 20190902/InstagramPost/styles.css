@@ -1,0 +1,46 @@
+section {
+  width: 100%;
+  overflow: hidden
+}
+
+img {
+  width: 32px;
+}
+
+img.fondo {
+  width: 100%;
+}
+
+.rigoberto {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.post{
+	width: 500px;
+	height: 600px;
+	}
+
+
+span.a {
+  display: inline-block;
+  width: 100px;
+  height: 10px; 
+}
+ 
+.supderecha {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.iconos {
+  float: left;
+  text-align: left;
+}
+
+.icono {
+  float: right;
+  text-align: right;
+}

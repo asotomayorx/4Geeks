@@ -1,0 +1,22 @@
+
+
+
+div.izquierda {
+  float: left;
+  width: 50%;
+}
+
+div.derecha {
+  float: right;
+  width: 50%;
+}
+
+img {
+  float: right;
+  width: 50px;
+}
+
+.post {
+  width: 400px;
+  height: 800px;
+}

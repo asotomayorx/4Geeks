@@ -1,0 +1,48 @@
+.body {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.arriba {
+	text-align: center;
+	size: 2rem;
+	height: 50px;
+}
+
+.abajo {
+	background-color: lightgray;
+	height: 800px;
+}
+
+img {
+	width: 100%;
+}
+
+.cuadro {
+	width: 40%;
+    margin: 0 auto;
+    background: white;
+}
+
+.cuadro main {
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+
+.cuadro footer {
+	padding: 0 5px 5px 5px;
+}
+
+.cuadroizquierda {
+	float: left;
+	margin: 10px solid #0000000;
+	padding-left: 5px;
+}
+
+.cuadroderecha {
+	float: right;
+	margin: 10px solid #0000000;
+	padding-right: 5px;
+}

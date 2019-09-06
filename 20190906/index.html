@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1><b>La excuesa es;</b></h1>
+    <h1><p id="excuse"></p></h1>
+
+
+
+    <script>
+      let who = ['the dog','my granma','his turtle','my bird'];
+      let what = ['eat','pissed','crushed','broked'];
+      let when = ['before the class','right in time','when I finished','during my lunch','while I was praying'];
+
+      let a = who[Math.floor(Math.random()*who.length)];
+      let b = what[Math.floor(Math.random()*what.length)];
+      let c = what[Math.floor(Math.random()*what.length)];
+
+      let sentence =  a + " " + b + " " + c;
+      document.getElementById("excuse").innerHTML = sentence
+      document.write("when.length is : " + when.length); 
+    </script>
+
+
+
+  </body>
+</html>

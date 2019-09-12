@@ -1,0 +1,48 @@
+.card {
+	position: absolute;
+	left: 39%;
+	width: 300px;
+	height: 450px;
+	background-color: white;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.azarCarta {
+	text-align: center;
+	font-size: 100px;
+}
+.azarCarta::before {
+	position: absolute;
+	top: 0;
+	left: 5%;
+}
+
+.azarCarta::after {
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+	transform: rotate(180deg);
+}
+
+.spades::before, .spades::after {
+	content:"\2660";
+	color: black;
+}
+
+.clubs::before, .clubs::after {
+	content: "\2663";
+	color: black;
+}
+
+.diamonds::before, .diamonds::after {
+	content:"\2666";
+	color: red;
+}
+
+.hearts::before, .hearts::after {
+	content:"\2665";
+	color: red;
+}
